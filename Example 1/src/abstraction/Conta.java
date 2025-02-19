@@ -7,7 +7,7 @@ public abstract class Conta {
         this.tipoTransferencia = tipoTransferencia;
     }
 
-    public void transferirDinheiro(double valor){
+    public void transferirDinheiro(double valor) {
         tipoTransferencia.gerarTransferencia(valor);
     }
 }
